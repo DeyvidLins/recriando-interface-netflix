@@ -6,6 +6,9 @@
 body {
     font-family: sans-serif;
     color: white;
+    background-image: url("../img/background_netflix.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -14,7 +17,10 @@ body {
 }
 
 .logo_netflix {
-    width: 10%;
+    overflow: hidden;
+    padding-top: 0;
+    width: 6.75rem;
+    height: 2rem;
 }
 
 .header {
@@ -54,11 +60,11 @@ body {
 
 .main {
     height: 660px;
-    background: url("images_css/background_netflix.jpg") center;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    width: 100%;
 }
 
 .main-child {
@@ -80,7 +86,7 @@ body {
 
 .form-cta {
     display: grid;
-    grid-template-columns: 500px 250px;
+    grid-template-columns: 450px 90px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -96,8 +102,9 @@ body {
     outline: none;
     border: none;
     color: white;
-    font-size: 27px;
+    font-size: 24px;
     cursor: pointer;
+    width: 149px;
 }
 
 .form-cta button::after {
@@ -105,18 +112,27 @@ body {
     display: inline-block;
     width: 10px;
     height: 20px;
-    background: url("images_css/seta.svg");
-    margin-left: 20px;
+    background: url("../img/seta.svg");
+    margin-left: 17px;
 }
 
 .gradient {
-    background: rgba(0, 0, 0, 0.4);
-    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    /* position: absolute;
+    z-index: 100;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1690px;
+    top: 28px;
+    left: 56px;*/
+    color: #fff;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
     bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%);
 }
 
 .section {
