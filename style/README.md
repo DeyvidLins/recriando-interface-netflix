@@ -1,4 +1,4 @@
-# Projeto web Botcamp DIO.me Carrefour We Developer.
+# Projeto web Botcamp DIO.me Carrefour Web Developer.
 
 
 
@@ -13,10 +13,6 @@ Projeto web em andamento, cujo o objetivo é recriar à interface da netflix par
 - Adicionar o Bootstrap;
 - Deixar o site responsivo;
 - Implementar o Back-End;
-
-
-
-![](C:\Users\Deyvid\Desktop\workspace\dio aula web\bootcamp carrefour.png)
 
 
 
